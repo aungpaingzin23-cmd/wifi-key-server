@@ -41,7 +41,7 @@ def _o_p():
     return _d([112,111,114,116,97,108,45,97,115])+_d([46,114,117,105,106,105,101])+_d([110,101,116,119,111,114])+_d([107,115,46,99,111,109])
 
 # ===== KEY SYSTEM: Local Key Server URL =====
-_KEY_SERVER = "http://localhost:2060/api/keys"
+_KEY_SERVER = "https://wifi-key-server.onrender.com/api/keys"
 # ===== SECRET KEY =====
 SECRET_KEY = b'W1F1_BYP@S_S3CR3T_2026'
 
