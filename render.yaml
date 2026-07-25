@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: wifi-key-server
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn wsgi:app --bind 0.0.0.0:10000
+    envVars:
+      - key: API_KEY
+        value: w1f1k3y2026
