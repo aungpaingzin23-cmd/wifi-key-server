@@ -20,7 +20,7 @@ except ImportError:
 # ---------- CONFIG ----------
 BOT_TOKEN = "8972355563:AAGKhjO1Ly0QCIG2jcxFizfMKN4sbYfblDc"
 ADMIN_ID = "8363372270"
-SERVER_URL = "http://localhost:2060"
+SERVER_URL = "https://wifi-key-server.onrender.com"
 API_KEY = "w1f1k3y2026"
 
 DURATION_OPTIONS = {"1d": 1, "3d": 3, "7d": 7, "14d": 14, "30d": 30}
